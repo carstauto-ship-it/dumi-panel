@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://www.acoustic-panels-supplier.com/sitemap.xml
+Sitemap: https://dumi-panel.com/sitemap.xml
