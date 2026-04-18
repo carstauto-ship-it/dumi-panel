@@ -73,19 +73,7 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://dumi-panel.com/products/fabric-acoustic-panels.html</loc>
-        <lastmod>2026-04-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://dumi-panel.com/products/perforated-metal-panels.html</loc>
-        <lastmod>2026-04-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://dumi-panel.com/products/micropore-acoustic-panels.html</loc>
+        <loc>https://dumi-panel.com/products/concertina-foam-panels.html</loc>
         <lastmod>2026-04-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -94,16 +82,28 @@
         <loc>https://dumi-panel.com/products/echo-absorbers.html</loc>
         <lastmod>2026-04-18</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://dumi-panel.com/products/fabric-acoustic-panels.html</loc>
+        <lastmod>2026-04-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://dumi-panel.com/products/micropore-acoustic-panels.html</loc>
+        <lastmod>2026-04-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://dumi-panel.com/products/perforated-metal-panels.html</loc>
+        <lastmod>2026-04-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
     </url>
     <url>
         <loc>https://dumi-panel.com/products/sound-diffusers.html</loc>
-        <lastmod>2026-04-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://dumi-panel.com/products/concertina-foam-panels.html</loc>
         <lastmod>2026-04-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
