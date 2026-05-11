@@ -211,7 +211,7 @@ def create_product_html(product):
         "availability": "https://schema.org/InStock",
         "seller": {{"@type": "Organization", "name": "DUMI Panel"}}
     }},
-    "image": "{BASE_URL}/images/{slug}-product.jpg"
+    "image": "assets/images/products/acoustic-panel-placeholder.jpg"
 }}
 </script>'''
     
@@ -229,21 +229,22 @@ def create_product_html(product):
     <meta property="og:type" content="product">
     <meta property="og:url" content="{canonical}">
     <meta name="twitter:card" content="product">
+    <link rel="stylesheet" href="../css/style.css">
     {json_ld}
 </head>
 <body>
     <header>
         <nav>
-            <a href="{BASE_URL}/">Home</a> > 
-            <a href="{BASE_URL}/products.html">Products</a> > 
-            <a href="{BASE_URL}/products/{slug}.html">{product['name']}</a>
+            <a href="../index.html">Home</a> > 
+            <a href="../products.html">Products</a> > 
+            <a href="{slug}.html">{product['name']}</a>
         </nav>
     </header>
     
     <main>
         <h1>{product['name']}</h1>
         
-        <img src="{BASE_URL}/images/{slug}-product.jpg" alt="{product['name']} - Professional acoustic treatment panel for studio and commercial use" width="600" height="400">
+        <img src="assets/images/products/acoustic-panel-placeholder.jpg" alt="{product['name']} - Professional acoustic treatment panel for studio and commercial use" width="600" height="400">
         
         <p class="price">{price}</p>
         
