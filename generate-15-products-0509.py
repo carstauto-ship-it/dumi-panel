@@ -211,7 +211,7 @@ def create_product_html(product):
         "availability": "https://schema.org/InStock",
         "seller": {{"@type": "Organization", "name": "DUMI Panel"}}
     }},
-    "image": "assets/images/products/acoustic-panel-placeholder.jpg"
+    "image": "assets/images/products/acoustic-door-1.jpg"
 }}
 </script>'''
     
@@ -244,7 +244,7 @@ def create_product_html(product):
     <main>
         <h1>{product['name']}</h1>
         
-        <img src="assets/images/products/acoustic-panel-placeholder.jpg" alt="{product['name']} - Professional acoustic treatment panel for studio and commercial use" width="600" height="400">
+        <img src="assets/images/products/acoustic-door-1.jpg" alt="{product['name']} - Professional acoustic treatment panel for studio and commercial use" width="600" height="400">
         
         <p class="price">{price}</p>
         
