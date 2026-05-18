@@ -371,7 +371,7 @@ if __name__ == "__main__":
     import subprocess
     from datetime import datetime
     
-    os.chdir("/Users/carstauto/.openclaw/workspace/dumi-panel")
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     
     created_files = []
     for product in new_products:
