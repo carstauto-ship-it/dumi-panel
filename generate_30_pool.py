@@ -132,8 +132,18 @@ def generate_product_page(p):
     </section>
     <footer class="footer">
         <div class="container">
-            <p>© 2026 DUMI ...
-            <p class="last-updated">Last updated: {TODAY}</p> PANEL. All Rights Reserved. | Professional Acoustic Solutions</p>
+            <p>© 2026 DUMI PANEL. All Rights Reserved. | Professional Acoustic Solutions</p>
+            <p class="last-updated">Last updated: {TODAY}</p>
+            <div class="dumi-sister-sites" style="margin-top:24px;padding-top:24px;border-top:1px solid var(--border)">
+                <p style="color:var(--muted);font-size:0.9rem;margin-bottom:12px">DUMI Sister Sites — All 1,000+ Printer Farm Family:</p>
+                <ul style="list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:12px;justify-content:center">
+                    <li><a href="https://dumi-3d.com" target="_blank" rel="noopener">🎯 DUMI 3D - 3D Printing Farm</a></li>
+                    <li><a href="https://dumi-auto.com" target="_blank" rel="noopener">🚗 DUMI Auto - PPF & Car Protection</a></li>
+                    <li><a href="https://dumi-sheepskin.com" target="_blank" rel="noopener">🐑 DUMI Sheepskin - Medical Grade</a></li>
+                    <li><a href="https://dumi-panel.com" target="_blank" rel="noopener">🔊 DUMI Panel - Acoustic Solutions</a></li>
+                    <li><a href="https://www.amazon.ca/dp/B0DY1BN22D" target="_blank" rel="noopener">🛒 Amazon CA - Car Seat Cover</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     <style>
