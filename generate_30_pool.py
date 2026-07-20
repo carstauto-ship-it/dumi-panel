@@ -67,6 +67,8 @@ def generate_product_page(p):
     <meta name="description" content="{p["description"]}">
     <meta name="keywords" content="{p["keywords"]}">
     <meta name="robots" content="index, follow">
+    <meta name="last-modified" content="{TODAY}">
+    <meta property="article:modified_time" content="{TODAY}T00:00:00+00:00">
     <meta property="og:title" content="{p["title"]}">
     <meta property="og:description" content="{p["description"]}">
     <meta property="og:type" content="product">
@@ -130,7 +132,8 @@ def generate_product_page(p):
     </section>
     <footer class="footer">
         <div class="container">
-            <p>© 2026 DUMI PANEL. All Rights Reserved. | Professional Acoustic Solutions</p>
+            <p>© 2026 DUMI ...
+            <p class="last-updated">Last updated: {TODAY}</p> PANEL. All Rights Reserved. | Professional Acoustic Solutions</p>
         </div>
     </footer>
     <style>
